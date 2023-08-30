@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+body{
+    background: linear-gradient(to right, rgb(255, 226, 102), rgb(193, 100, 59));
+    font-family: sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   height: 100vh;
+   color: white;
+  
+}
+.card{
+    background-color: #272627;
+    width: 310px;
+    height: 320px;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 13px 25px 122px 15px rgba(0,0,0,0.44);
+    
+}
+.tittle{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.part1,.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.part1{
+    margin-bottom: 20px;
+}
+body.active h1{
+    text-shadow: 2px 2px 2px black;
+}
+body.active {
+    background: linear-gradient(to right, #0A3A40, #042326);
+
+}
+body.active #butaoo{
+    background: linear-gradient(to right, #0A3A40, #042326);
+}
+body.active .result{
+    background: linear-gradient(to right, #0A3A40, #042326);
+}
+body.active .txt{
+    background-color: #0f4343;
+}
+body.active input{
+    border: 1px solid #042326;
+    background: linear-gradient(to right, #0A3A40, #042326);
+}
+body.active .card{
+    background-color: #082c2c;
+}
+.day-night.active .white{
+    display: none;
+}
+.day-night.active .black{
+    display: block;
+}
+.white{
+    cursor: pointer;
+
+}
+.black{
+    display: none;
+    cursor: pointer;
+}
+input{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(51, 51, 51);
+    border: 1px solid rgb(242, 200, 93);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+ 
+}
+
+.txt{
+    background-color: rgb(53, 50, 53);
+    padding-inline: 20px;
+}
+.result{
+    width: 90px;
+    height: 40px;
+    background: linear-gradient(to right, rgb(255, 226, 102), rgb(193, 100, 59));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    border-radius: 5px;
+}
+#butaoo{
+    width: 90%;
+    height: 40px;
+    background: linear-gradient(to right, rgb(255, 226, 102), rgb(193, 100, 59));
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+input:focus {
+    border-color: rgb(242, 200, 93);
+    outline: none; 
+    
+  }
+  input::placeholder{
+    color: white;
+  
+  }
+.mid{
+    margin-bottom: 30px;
+}
